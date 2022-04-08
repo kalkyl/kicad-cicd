@@ -18,7 +18,7 @@ jobs:
       - uses: INTI-CMNB/KiBot@v2_k6
         with:
           # Required - kibot config file
-          config: config.kibot.yaml
+          config: kicad-example/config.kibot.yaml
           # optional - prefix to output defined in config
           dir: output
           # optional - schematic file
