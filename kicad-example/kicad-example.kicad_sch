@@ -498,7 +498,7 @@
     (property "Reference" "C1" (id 0) (at 119.38 41.9162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (id 1) (at 119.38 44.4562 0)
+    (property "Value" "100n" (id 1) (at 119.38 44.4562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 116.84 43.18 0)
@@ -611,7 +611,7 @@
     (property "Reference" "C2" (id 0) (at 119.38 58.4262 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (id 1) (at 119.38 60.9662 0)
+    (property "Value" "100n" (id 1) (at 119.38 60.9662 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 116.84 59.69 0)
@@ -725,10 +725,10 @@
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/555653a9-b2be-4b79-97c0-61cfdc9e78e8"
-      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/b66c8b20-cbc1-4d28-abc7-ad990ea20187"
-      (reference "C2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C2") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cd3851c8-43a7-44ba-a57d-7da51bf4d405"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

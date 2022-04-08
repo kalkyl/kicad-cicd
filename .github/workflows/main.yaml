@@ -22,9 +22,9 @@ jobs:
           # optional - prefix to output defined in config
           dir: output
           # optional - schematic file
-          # schema: "kicad-example.kicad_sch"
+          schema: "kicad-example/kicad-example.kicad_sch"
           # optional - PCB design file
-          # board: "kicad-example.kicad_pcb"
+          board: "kicad-example/kicad-example.kicad_pcb"
       - name: upload results
         uses: actions/upload-artifact@v2
         with:
