@@ -1,20 +1,29 @@
-name: example
+name: Kicad
 
 on:
   push:
     paths:
       - "**.kicad_sch"
       - "**.kicad_pcb"
+      - "**.kicad_mod"
+      - "**.lib"
+      - "**.yaml"
   pull_request:
     paths:
       - "**.kicad_sch"
       - "**.kicad_pcb"
+      - "**.kicad_mod"
+      - "**.lib"
+      - "**.yaml"
 
 jobs:
-  example:
+  Kicad:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - uses: INTI-CMNB/KiBot@v2_k6
         with:
           # Required - kibot config file
